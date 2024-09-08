@@ -3,14 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Main Page</title>
 </head>
-<body>
-    
-<h1>Effective Turkish Lessons</h1>
-<h3>We can easily help you to learn language by heart</h3>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtQ1sL_ZP1dFsUTRH1T8RSmYeebhk8_MvlLw&s" >
-<a href="https://www.instagram.com/mkkstvna/"> To join us- wtite here</a>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
 
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.word{
+text-align: center;
+color: rgb(116, 165, 239);
+}
+.soz{
+    text-align: center;
+}
+</style>
+<body>
+    <h1 class="word">Welcome to My Page</h1>
+    <p class="soz">Heey guys!!! My name is Azhar. I am a student of <a href="https://www.instagram.com/jihc.kz/"> JIHC.</a> Today I want to introduce Myself.</p>
+   
+    <ul>
+
+<li><a href="about.html">About Me</a></li>
+<li><a href="resume.html">Resume</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="contacts.html">Contact</a></li>
+
+   </ul>
+   
+   
+   <h2>Part of My Everyday Life</h2>
+    <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="IMG_3315.jpg">
+            <img src="IMG_3315.jpg" alt="Cinque Terre">
+          </a>
+          <div class="desc">It's Zhansulu</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="IMG_0106.jpeg">
+            <img src="IMG_0106.jpeg" alt="Forest">
+          </a>
+          <div class="desc">Sunshine Day</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="IMG_3103.jpg">
+            <img src="IMG_3103.jpg" alt="Northern Lights">
+          </a>
+          <div class="desc">Also with Z</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="IMG_3310.jpg">
+            <img src="IMG_3310.jpg" alt="Mountains">
+          </a>
+          <div class="desc">Pink Flower</div>
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      
+       
 </body>
 </html>

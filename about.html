@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<style>
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+.soz{
+    text-align: center;
+    color: rgb(12, 45, 227);
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+</style>
+  <body>
+    <h2 class="soz">Hello Everyone!!! I'm Azhar Maksatkyzy.</h2>
+    <div class="container">
+        <p style="text-align:center;"> 
+        <img src="FullSizeRender.JPG" width=400 alt="Avatar" class="image">
+        </p>
+        <div class="overlay">My Name is Azhar</div>
+      </div>   
+
+      <h2>Hobbies</h2>
+  
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Story</th>
+          <th>Reason</th>
+        </tr>
+        <tr>
+          <td>Vocal</td>
+          <td>When I was 7 at the music lesson, we were asked to learn a song, the next day I managed to sing <br>it very well, after which my mother sent me to a vocal circle</td>
+          <td>Good Voice</td>
+        </tr>
+        <tr>
+          <td>Dance</td>
+          <td>I really dont want go there, but i had to do it</td>
+          <td>My mothers choice</td>
+        </tr>
+        <tr>
+          <td>Cooking</td>
+          <td>I was bored</td>
+          <td>Pandemic</td>
+        </tr>
+      </table>
+      <h2>Me as a child</h2>
+      <img src="IMG_8763.jpeg" width="300">
+      <p>
+        I am the eldest daughter of my parents. According to my mother and grandmother, <br>I was a very active and restless child. I was very fond of chatting, which made <br>me talk calmly for a year. Since childhood, my mother loved to send me to <br>different clubs. I went to vocal, dance, English, and training courses. Thanks to this, <br>I grew up quite versatile
+      </p>
+      <h2>Some Facts</h2>
+      <ul>
+      <li>I am The <strong>oldest</strong> child in My Family</li>
+      <li>I love sing and i went to the vocal about 4 years</li>
+      <li>I was born 13 February at 3 am</li>
+      </ul>
+<button><a href="index.html">Click Here</a></button>
+</body>
+</html>
